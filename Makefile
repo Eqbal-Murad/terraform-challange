@@ -1,0 +1,2 @@
+help:
+		cat README.md
