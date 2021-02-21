@@ -1,5 +1,5 @@
 
-// default instance type is not specfied at commans line
+### Default instance type is not specfied at commans line ###
 variable "instance_type" {
   default = "t3.micro"
 }
@@ -8,7 +8,8 @@ variable "ami" {
   default = ""
 }
 
-// default name_tag prefix
+
+### Default instance type is not specfied at commans line ###
 variable "name_tag" {
   default = "EC2"
 }
