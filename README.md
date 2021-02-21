@@ -31,11 +31,14 @@ Output parameters for the terraform module:
 
 ### Commands
 
-`make terraform init` :
-- make terraform-apply
+`make init` :
+- terraform init
 
-`make terraform plan -var="instance_type=t3.micro" -var="name_tag=EC2Instance"` :
-- make terraform-plan
+`make plan` :
+- terraform plan -var="instance_type=t3.micro" -var="name_tag=EC2Instance"
 
-`make terraform apply -var="instance_type=t3.micro" -var="name_tag=EC2Instance"` :
-- make terraform-apply
+`make apply` :
+- terraform apply -var="instance_type=t3.micro" -var="name_tag=EC2Instance"
+
+`make destroy` :
+- terraform destroy"
