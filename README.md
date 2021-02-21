@@ -41,4 +41,4 @@ Output parameters for the terraform module:
 - terraform apply -var="instance_type=t3.micro" -var="name_tag=EC2Instance"
 
 `make destroy` :
-- terraform destroy"
+- terraform destroy
